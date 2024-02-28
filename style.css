@@ -1,11 +1,38 @@
-.main {
+.main, header {
     background-color: #1F2937;
+    color: #F9FAF8
 }
+
+header {
+    font-size: 24px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
 
 .call-to-action, button {
     background-color: #3882F6;
+    color: white;
 }
 
 .quote {
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937
 }
