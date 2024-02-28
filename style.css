@@ -1,4 +1,8 @@
-.main, header {
+body {
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+.main, header, footer {
     background-color: #1F2937;
     color: #F9FAF8
 }
@@ -10,6 +14,13 @@ header {
 .main {
     font-size: 48px;
     font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+.main div {
+    outline: solid red;
+    flex: 1
 }
 
 .secondary-text {
@@ -20,13 +31,13 @@ header {
 .info {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
+    display: flex;
 }
 
-
-.call-to-action, button {
-    background-color: #3882F6;
-    color: white;
+.info div {
+    outline: solid red;
+    flex: 1
 }
 
 .quote {
@@ -34,5 +45,34 @@ header {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+    display: flex;
+}
+
+.quote div {
+    outline: solid red;
+    flex: 1;
+}
+
+.call-to-action, button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.sign-up div {
+    outline: solid red;
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    outline: solid red;
+    flex: 1
 }
