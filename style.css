@@ -2,30 +2,44 @@ body {
     font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
 }
 
-.main, header, footer {
+.main, .hero, header, footer {
     background-color: #1F2937;
     color: #F9FAF8
 }
 
-header {
+#header-logo {
     font-size: 24px;
 }
 
+/* .hero, */
 .main {
     font-size: 48px;
     font-weight: bolder;
     display: flex;
-    flex-direction: column;
+    border: 4px;
+    outline: solid blue;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+/*  .hero div, */
 .main div {
-    outline: solid red;
-    flex: 1
+    outline: solid green;
+    margin: 12px 60px;
+    gap: 1px;
+}
+
+
+.links {
+    display: flex;
+    gap: 1px;
+    background-color: red;;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: normal;
 }
 
 .info {
