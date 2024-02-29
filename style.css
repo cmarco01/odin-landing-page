@@ -3,7 +3,7 @@ body {
 }
 
 .header-container {
-    outline: solid lightblue;
+    /*outline: solid lightblue;*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -11,68 +11,70 @@ body {
 }
 
 .header-logo {
-    outline: solid blue;
-    display: flex;
+    /*outline: solid blue;*/
     font-size: 24px;
     font-weight: bold;
+    padding: 2px;
 }
 
 
 .link-container {
-    outline: solid red;
+    /*outline: solid red;*/
     display: flex;
     flex-direction: row;
     justify-items: center;
     align-content: center;
     gap: 30px;
+    padding: 2px;
 }
 
 .link-container div {
-    outline: solid green;
+    /*outline: solid green;*/
     flex:auto;
 }
 
 
+.hero-container {
+    outline: solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.hero-item {
+    outline: solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 10%;
+}
+
+.hero-item div {
+    outline: solid green;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
 
 
 
 
-
-
-.header-container, 
-.main, .hero, header, footer {
+.hero-container, header, footer {
     background-color: #1F2937;
     color: #F9FAF8
 }
 
-#header-logo {
-    font-size: 24px;
-}
 
-/* .hero, */
-.main {
+.hero {
     font-size: 48px;
     font-weight: bolder;
     display: flex;
     border: 4px;
-    outline: solid blue;
     justify-content: space-between;
     align-items: baseline;
 }
 
-/*  .hero div, */
-.main div {
-    outline: solid green;
-    margin: 12px 60px;
-    gap: 1px;
-}
-
-
-.links {
-    display: flex;
-    gap: 1px;
-    background-color: red;;
-}
 
 .secondary-text {
     font-size: 18px;
