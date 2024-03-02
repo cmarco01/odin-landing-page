@@ -17,7 +17,6 @@ body {
     padding: 2px;
 }
 
-
 .link-container {
     /*outline: solid red;*/
     display: flex;
@@ -32,7 +31,6 @@ body {
     /*outline: solid green;*/
     flex:auto;
 }
-
 
 .hero-container {
     /*outline: 4px solid blue;*/
@@ -77,16 +75,6 @@ body {
     border-color: #3882F6;
 }
 
-
-/*
-.hero-container div.hero-title {
-    outline: solid purple;
-    font-size: 48px;
-    font-weight: bolder;
-    flex: 0;
-}*/
-
-
 .main-text {
     font-size: 48px;
     font-weight: bolder;
@@ -98,25 +86,75 @@ body {
     font-weight: normal;
 }
 
-
-
 .hero-container, header, footer {
     background-color: #1F2937;
     color: #F9FAF8
 }
 
+.info-section {
+    /* outline: solid brown; */
+    padding: 30px 15%;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
 
-.info {
+.info-title {
+    /* outline: solid black; */
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    display: flex;
+    align-self: center;
+    padding: 5px;
+    padding-bottom: 40px;
 }
 
-.info div {
-    outline: solid red;
-    flex: 1
+.info-container {
+    /* outline: solid lime; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 4px;
+    flex-wrap: wrap;
 }
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    /* outline: solid pink; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.info-image {
+    width: 120px;
+    height: 120px;
+    outline: 3px solid #3882F6;
+    border-radius: 6px;
+}
+
+.info-text {
+    color: darkslategray;
+    font-size: 16px;
+    /* outline: solid purple; */
+    width: 140px;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 .quote {
     background-color: #E5E7EB;
