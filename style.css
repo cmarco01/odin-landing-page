@@ -35,28 +35,68 @@ body {
 
 
 .hero-container {
-    outline: solid blue;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+    /*outline: 4px solid blue;*/
+    display: flex;;
+    padding: 75px 15%;
 }
 
 .hero-item {
-    outline: solid red;
+    /*outline: solid red;*/
     display: flex;
+    flex: auto;
     flex-direction: column;
-    margin: 12px 10%;
+    width: 85%; /* Without this width declaration, it would fill up the width as much
+    as it could. But because of this width declaration, it forces the divs inside to
+    WRAP if the content gets wider than the specified width.  */
 }
 
 .hero-item div {
-    outline: solid green;
+    display: flex;
+    align-items: center;
+    padding: 4px 0px;
 }
+
+.hero-left {
+    padding-right: 30px;
+}
+
+.hero-image {
+    background-color: darkslategrey;
+    flex: auto;
+    justify-content: center;
+}
+
+.hero-button {
+    margin-top: 10px;
+}
+
+.hero-button button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+
+/*
+.hero-container div.hero-title {
+    outline: solid purple;
+    font-size: 48px;
+    font-weight: bolder;
+    flex: 0;
+}*/
+
 
 .main-text {
     font-size: 48px;
     font-weight: bolder;
 }
 
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+}
 
 
 
@@ -65,22 +105,6 @@ body {
     color: #F9FAF8
 }
 
-
-.hero {
-    font-size: 48px;
-    font-weight: bolder;
-    display: flex;
-    border: 4px;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-
-.secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: normal;
-}
 
 .info {
     font-size: 36px;
