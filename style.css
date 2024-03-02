@@ -146,24 +146,34 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-.quote {
+.quote-section {
     background-color: #E5E7EB;
+    padding: 60px 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section div {
+    /* outline: solid red; */
+    display: flex;
+    padding: 6px;
+}
+
+.quote-text {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
-    display: flex;
 }
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: end;
+}
+
+
+
 
 .quote div {
     outline: solid red;
