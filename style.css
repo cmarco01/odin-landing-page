@@ -68,7 +68,7 @@ body {
     margin-top: 10px;
 }
 
-.hero-button button {
+#action-button, .hero-button button {
     width: 100px;
     height: 30px;
     border-radius: 8px;
@@ -172,27 +172,50 @@ body {
     align-self: end;
 }
 
-
-
-
-.quote div {
-    outline: solid red;
-    flex: 1;
-}
-
 .call-to-action, button {
     background-color: #3882F6;
     color: white;
 }
 
-.sign-up {
+
+.action-section {
+    padding: 40px 15%;
     display: flex;
 }
 
-.sign-up div {
-    outline: solid red;
-    flex: 1;
+.action-container {
+    /* outline: solid blue; */
+    background-color:#3882F6;
+    border-radius: 6px;
+    display: flex;
+    flex: auto;
+    padding: 20px 100px;
+    color: white;
 }
+
+.action-item {
+    /* outline: solid red; */
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-item div {
+    padding: 1px;
+}
+
+#action-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#action-button {
+    align-self: center;
+    outline: 2px solid white;
+    border-style: none;
+}
+
 
 footer {
     display: flex;
