@@ -219,9 +219,29 @@ body {
 
 footer {
     display: flex;
+    padding: 25px 15%;
+    justify-content: center;
+    align-items: center;
 }
 
-footer div {
-    outline: solid red;
-    flex: 1
+footer .footer-content {
+    /* outline: solid red; */
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
+
+/* .footer-content div {
+    outline: solid blue;
+} */
+
+footer .footer-content div#designed-by {
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
